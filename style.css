@@ -1,0 +1,151 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Montserrat:wght@500;700&display=swap');
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Happy+Monkey&display=swap');
+
+
+*{
+     margin: 0;
+    padding: 0; 
+
+}
+
+body{
+    display: flex; 
+    min-height: 100vh;
+    justify-content: center;
+    background-color: #f3eae3;
+}
+
+.content{
+    height: 420px;
+    width: 600px;
+    /* background-color: yellowgreen; */
+    align-self: center;
+    border-radius: 5px;
+    display: flex;
+}
+.content .image{
+    width: 50%;
+    height: 100%;
+ 
+}
+.content .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.text{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+ 
+}
+
+
+.text h5{
+   font-family: 'Happy Monkey', cursive;
+   padding: 20px;
+}
+
+.text h4{
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    padding-left: 20px;
+ }
+ .text p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+ }
+
+ .text h2{
+    margin-right: 20px;
+    font-family: 'Fraunces', serif;
+    color: #3d8168 ;
+    align-self: center;}
+ 
+ .prices{
+    display: flex;
+
+  margin-left: 20px;
+  height: 30px;
+  
+
+ }
+ 
+ .prices p{
+align-self: center;
+font-family: 'Montserrat', sans-serif;
+ }
+
+ button{
+    background-color: #3d8168;
+   padding: 13px 15px 13px 15px;
+   width: 250px;
+   color: white;
+   border:none;
+   border-radius :8px;
+   margin: 20px;
+    
+ }
+
+ @media only screen and (max-width: 768px) {
+ 
+    
+    .content{
+        display: block;
+      
+  
+     /* max-height: 100vh; */
+     margin-top: 30px;
+     margin-bottom: 10px;
+     height: fit-content;
+     border-radius: 10px;
+  
+    }
+
+    .content .image {
+        width: 350px;
+        height: 280px;
+        display: flex
+       ;
+       border-top-left-radius: 10px;
+       border-top-right-radius: 10px;
+  
+       overflow: hidden;
+       margin-left: auto;
+       margin-right: auto;
+        
+    }
+    .text{
+        width: 350px;
+        height: 500px;
+        margin: 0;
+        display: flex
+        ;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .text p{
+        font-size: 20px;
+    }
+    .text h2{
+        font-size: 40px;
+    }
+    .prices{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    button{
+       width: 300px;
+       margin-top: 45px;
+       font-size: 20px;
+    }
+   
+    
+    
+       
+  }
